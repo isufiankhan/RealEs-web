@@ -1,6 +1,8 @@
 import { FOOTER } from "@/constants"
-import { FacebookIcon, Github, InstagramIcon, TwitterIcon } from "lucide-react"
+import { FacebookIcon, InstagramIcon, LinkedinIcon, TwitterIcon } from "lucide-react"
+import Image from "next/image"
 import Link from "next/link"
+
 
 const Footer = () => {
     return (
@@ -8,17 +10,27 @@ const Footer = () => {
             <div className="container mx-auto">
                 <div className="flex flex-wrap border-b border-neutral-700">
                     <div className="w-full sm:w-1/2 lg:w-6/12 p-4">
-                        <h2>
-                            RealEs
-                        </h2>
+                        {/* <h2>
+                            Zia Associates
+                        </h2> */}
+                        <div className="flex">
+                            <Image
+                                className='mr-8'
+                                src="/ZiaEs.png"
+                                width={50}
+                                height={50}
+                                alt='Logo'
+                            />
+                            <div className="text-white pl-8 text-sm tracking-tighter"> Zia Associates</div>
+                        </div>
                         <p className="py-8 lg:max-w-sm text-sm">
                             {FOOTER.description}
                         </p>
                         <div className="flex flex-wrap my-10 gap-4">
-                            <FacebookIcon />
-                            <InstagramIcon />
-                            <Github />
                             <TwitterIcon />
+                            <InstagramIcon />
+                            <FacebookIcon />
+                            <LinkedinIcon />
                         </div>
                     </div>
                     {FOOTER.categories.map((category, index) => (

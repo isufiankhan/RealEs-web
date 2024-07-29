@@ -24,11 +24,8 @@ const Services = () => {
                 <div className="w-full lg:w-1/2">
                     <h2 className="mt-10 text-5xl lg:text-7xl">
                         We are 
-                        <br />
-                        <span className="leading-snug lg:block">
                         avaiable in
-                        </span>
-                        <span className="font-bold"> 40+ Countries</span>
+                        <span className="font-bold"> SLH, Karachi </span>
                     </h2>
                     <p className="max-w-xl py-6 text-lg tracking-tighter lg:pr-20">
                         {SERVICES_TEXT}

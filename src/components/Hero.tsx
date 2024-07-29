@@ -14,7 +14,7 @@ const Hero = () => {
                 {HERO.description}
             </p>
         </div>
-        <SearchForm />
+        {/* <SearchForm /> */}
       </div>
     </div>
   )

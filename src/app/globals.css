@@ -82,6 +82,6 @@
   background-size: cover;
 }
 .work{
-  background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.4)),url("../../public/works.jpeg");
+  background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.4)),url("../../public/works.jpg");
   background-size: cover;
 }

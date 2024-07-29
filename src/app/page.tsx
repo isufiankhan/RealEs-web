@@ -1,4 +1,5 @@
 import AboutUs from '@/components/AboutUs'
+import Contact from '@/components/Contact'
 import Faq from '@/components/Faq'
 import FeaturedProperties from '@/components/FeaturedProperties'
 import Footer from '@/components/Footer'
@@ -19,6 +20,7 @@ const Home = () => {
     <AboutUs />
     <Testimonials />
     <Faq />
+    <Contact />
     <Footer />
     </>
   )

@@ -19,12 +19,12 @@ const NavBar = () => {
                 <div className="flex flex-shrink-0 items-center justify-between">
                     <Image
                         className='mr-2'
-                        src="/EsLogo.png"
-                        width={40}
-                        height={40}
+                        src="/ZiaEs.png"
+                        width={60}
+                        height={60}
                         alt='Logo'
                     />
-                    <div className="text-white text-sm tracking-tighter">RealEs</div>
+                    <div className="text-white text-sm tracking-tighter">Zia Associates</div>
                 </div>
 
                 <div className='hidden lg:flex'>
@@ -42,8 +42,7 @@ const NavBar = () => {
                 </div>
 
                 <div className='hidden text-sm text-white gap-4 lg:flex'>
-                    <Button variant={'outline'} className='mr-2 bg-black'>Sign in</Button>
-                    <Button className='bg-slate-800'>Contact</Button>
+                    <Button variant={'outline'} id='Contact' className='mr-2 bg-black'>Contact Us</Button>
                 </div>
 
 
@@ -70,13 +69,11 @@ const NavBar = () => {
                     </ul>
 
                     <div className='flex items-center justify-center pb-8 lg:hidden text-white'>
-                        <Button variant={'outline'} className='mr-2 bg-black'>Sign in</Button>
-                        <Button className='bg-slate-800'>Contact</Button>
+                        <Button variant={'outline'} id='#Contact' className='mr-2 bg-black'>Contact Us</Button>
                     </div>
 
                 </div>
             )}
-
 
         </nav>
     )

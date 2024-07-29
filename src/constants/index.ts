@@ -28,109 +28,72 @@ export const HOW_IT_WORKS = {
     },
     {
       title: "STEP 3",
-      text: "If you decide to move forward, our team will guide you through the rental or purchasing process.",
+      text: "If you are willing to proceed, our team will guide you through the rental or purchasing process.",
     },
   ],
 };
 
 export const FEATURED_PROPERTIES = [
   {
-    name: "Beautiful Family Home",
-    price: 350000,
-    rating: 4.8,
-    reviews: 62,
-    image: "/image-1.jpg",
+    name: "240 SYD WITH BASEMENT",
+    description: "5 Bedroom with attach bath, 3 Rooms, Store & Study Rooms, 2 Drawing room, Lounge, Kitchen, Rooftop",
+    price: "On Sale: 4 CR & On Rent: 130K",
+    image: "/240-bm.jpg",
   },
   {
-    name: "Spacious City Apartment",
-    price: 250000,
-    rating: 4.5,
-    reviews: 48,
-    image: "/image-2.jpg",
+    name: "240 SYD BUNGLOW",
+    description: "3 Bedroom with attach bath, Drawing room, Lounge, Kitchen, ROOFTOP: 1 Room and Study or Store room",
+    price: "On Sale: 3 CR TO 3 CR 50 LAC & On Rent: 90K",
+    image: "/240.jpg",
   },
   {
-    name: "Cozy Suburban House",
-    price: 280000,
-    rating: 4.7,
-    reviews: 55,
-    image: "/image-3.jpg",
+    name: "160 SYD G+1 BUNGLOW",
+    description: "6 Bedroom attach bath, 2 Drawing Room, Lounge, 2 kitchen, Rooftop",
+    price: "On Sale: 2 CR 85 LAC To 2 CR 90 LAC, On Rent: 90K & Portion Rent: 50k",
+    image: "/160-g1.jpg",
   },
   {
-    name: "Luxury Beachfront Villa",
-    price: 950000,
-    rating: 4.9,
-    reviews: 78,
-    image: "/image-4.jpg",
+    name: "160 SYD BUNGLOW",
+    description: " 3 Bedroom attach bath, Drawing Room, Lounge, kitchen, Rooftop",
+    price: "On Sale: 2 CR 20 LAC TO 2 CR 50 LAC, On Rent: 60K & Portion rent: 50k",
+    image: "/160.jpg",
   },
   {
-    name: "Mountain View Retreat",
-    price: 420000,
-    rating: 4.6,
-    reviews: 66,
-    image: "/image-5.jpg",
+    name: "120 SYD G+1 BUNGLOW",
+    description: "4 Bedroom with attach bath, 2 Drawing room, Lounge, 2 Kitchen, Rooftop",
+    price: "On Sale: 2 CR 25 LAC TO 2 CR 40 LAC, On Rent: 85K & Portion rent:45k",
+    image: "/120-g1.jpg",
   },
   {
-    name: "Urban Loft Apartment",
-    price: 320000,
-    rating: 4.7,
-    reviews: 59,
+    name: "120 SYD ONE UNIT BUNGLOW",
+    description: "3 Bedroom with attach bath, Drawing room, Lounge, Kitchen, Terrace",
+    price: "On Sale: 2 CR TO 2 CR 30 LAC & On Rent: 60K",
+    image: "/120-1unit.jpg",
+  },
+  {
+    name: "120 SINGLE STORY BUNGLOW",
+    description: "2 Bedroom with attach bath, Drawing room, Lounge, Kitchen, Rooftop",
+    price: "On Sale 1 CR 75 LAC TO 1 CR 80 LAC, On Rent 50K, Portion rent 40k",
+    image: "/120.jpg",
+  },
+  {
+    name: "120 & 240 SYD BUNGLOW PLOT",
+    description: "120 & 240 Syd Park facing plots infront of Mosque & School",
+    price: "120 SYD PLOT : 1 CR 25 LAC 240 SYD PLOT : 2 CR 30 LAC ",
     image: "/image-6.jpg",
-  },
-  {
-    name: "Rural Farmhouse",
-    price: 380000,
-    rating: 4.5,
-    reviews: 52,
-    image: "/image-7.jpg",
-  },
-  {
-    name: "Modern City Penthouse",
-    price: 580000,
-    rating: 4.9,
-    reviews: 84,
-    image: "/image-8.jpg",
-  },
-  {
-    name: "Countryside Cottage",
-    price: 290000,
-    rating: 4.6,
-    reviews: 57,
-    image: "/image-9.jpg",
-  },
-  {
-    name: "Seaside Bungalow",
-    price: 410000,
-    rating: 4.8,
-    reviews: 72,
-    image: "/image-10.jpg",
-  },
-  {
-    name: "Lakefront Cabin",
-    price: 340000,
-    rating: 4.7,
-    reviews: 63,
-    image: "/image-11.jpg",
-  },
-  {
-    name: "Historic Townhouse",
-    price: 470000,
-    rating: 4.8,
-    reviews: 69,
-    image: "/image-12.jpg",
   },
 ];
 
-export const SERVICES_TEXT = `Buying: We offer personalized assistance to help you find the perfect property to suit your needs and budget. Our agents will guide you through the entire buying process, from property selection to closing the deal. Selling: When it comes to selling your property, our expert agents will create a customized marketing strategy to attract potential buyers and get you the best possible price.`;
+export const SERVICES_TEXT = `Buying: We offer personalized assistance to help you find the perfect property in Saima Luxury Homes that suit your needs and budget. Our agents will guide you through the entire buying process, from property selection to closing the deal. Selling: When it comes to selling your property, our expert agents will create a customized marketing strategy to attract potential buyers and get you the best possible price.`;
 
-export const ABOUT_US_TEXT = `At RealEs, we are committed to providing exceptional real estate services to our clients. With years of experience in the industry, our team of expert agents is dedicated to helping you achieve your real estate goals. Whether you're buying, selling, renting, or looking for property management services, we're here to assist you every step of the way. Our mission is to make your real estate experience as seamless and stress-free as possible. Contact us today to learn more about how we can help you with all your real estate needs.`;
+export const ABOUT_US_TEXT = `At Zia Associates, we are committed to providing exceptional real estate services in Saima Luxury Homes to our clients. With years of experience in the industry, our team of expert agents is dedicated to helping you achieve your real estate goals. Whether you're buying, selling, renting, or looking for property management services in Saima Luxury Homes, we're here to assist you every step of the way. Our mission is to make your real estate experience as seamless and stress-free as possible. Contact us today to learn more about how we can help you with all your real estate needs.`;
 
 export const TESTIMONIALS = [
   {
-    name: "Jane Doe",
+    name: "A.R Qamar",
     instagram: "@jane.doe",
     feedback:
       "Amazing service! The team went above and beyond to find me the perfect home. I couldn't be happier!",
-    city_country: "New York, USA",
     image: "/profile-pictures/user1.jpg",
   },
   {
@@ -138,7 +101,6 @@ export const TESTIMONIALS = [
     instagram: "@john.smith",
     feedback:
       "I was impressed by their professionalism and dedication. Highly recommend their services! I'm so grateful for their expertise.",
-    city_country: "London, UK",
     image: "/profile-pictures/user2.jpg",
   },
   {
@@ -146,7 +108,6 @@ export const TESTIMONIALS = [
     instagram: "@maria.g",
     feedback:
       "Excellent experience working with them. They made the whole process smooth and stress-free.",
-    city_country: "Madrid, Spain",
     image: "/profile-pictures/user3.jpg",
   },
   {
@@ -154,7 +115,6 @@ export const TESTIMONIALS = [
     instagram: "@ahmed.hassan",
     feedback:
       "Outstanding service. They listened to my needs and found me the perfect property.",
-    city_country: "Cairo, Egypt",
     image: "/profile-pictures/user4.jpg",
   },
   {
@@ -162,7 +122,6 @@ export const TESTIMONIALS = [
     instagram: "@emily.w",
     feedback:
       "Exceptional service and attention to detail. I would definitely use their services again.",
-    city_country: "Shanghai, China",
     image: "/profile-pictures/user5.jpg",
   },
   {
@@ -178,7 +137,6 @@ export const TESTIMONIALS = [
     instagram: "@sarah.j",
     feedback:
       "I'm so grateful for their expertise. They made the whole buying process a breeze.",
-    city_country: "Sydney, Australia",
     image: "/profile-pictures/user7.jpg",
   },
   {
@@ -186,7 +144,6 @@ export const TESTIMONIALS = [
     instagram: "@juan.p",
     feedback:
       "Impressive service. They found me a property that exceeded my expectations.",
-    city_country: "Mexico City, Mexico",
     image: "/profile-pictures/user8.jpg",
   },
 ];
@@ -268,8 +225,8 @@ export const FAQ = [
 ];
 
 export const FOOTER = {
-  description: `Your Real Estate Company is dedicated to helping you find the perfect home. Whether you're looking to buy, sell, or rent, our team of experienced professionals is here to guide you every step of the way.`,
-  copyright: `Copyright © 2024 Real Estate. All Rights Reserved `,
+  description: `Our Real Estate Company is dedicated to helping you find the perfect home. Whether you're looking to buy, sell, or rent, our team of experienced professionals is here to guide you every step of the way.`,
+  copyright: `Copyright © 2024 Zia Associates. All Rights Reserved `,
   categories: [
     {
       name: "Buy",
